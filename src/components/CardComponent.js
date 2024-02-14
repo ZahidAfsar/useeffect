@@ -6,7 +6,7 @@ import Card from 'react-bootstrap/Card';
 function CardComponent(props) {
 
 useEffect(() => {
-    console.log(props);
+    // console.log(props);
 })
 
 
