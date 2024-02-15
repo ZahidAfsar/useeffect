@@ -52,7 +52,7 @@ useEffect(() => {
     return(
       // Without a key in our jsx return react will throw errors
     <Col key={digimon.id} >
-      <CardComponent digiImg={digimon.img} digiName={digimon.name} digiLevel={digimon.level} />
+      <CardComponent digiImg={digimon.img} digiName={digimon.name} digiLevel={digimon.level} digiEvolutions={digimon.evolutions} />
     </Col>
 )
 })}
